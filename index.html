@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>TechNova Solutions</title>
+</head>
+</head>
+
+<body>
+    <!-- View our work Modal -->
+    <div class="modal fade" id="ViewModal">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Our Recent Projects</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Explore some of the digital solutions we've built for our clients.</p>
+                </div>
+
+                <div class="row g-2">
+                    <!-- Cards -->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/e-commerce.png" class="card-img-top" alt="E-Commerce Website">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">E-Commerce Website</h5>
+                                <p class="card-text">A modern and responsive online shopping platform with a
+                                    user-friendly interface.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/mob-app.png" class="card-img-top" alt="Mobile Application">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Application</h5>
+                                <p class="card-text">A smooth and intuitive mobile application designed for better user
+                                    engagement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/healthCare.png" class="card-img-top"
+                                    alt="Healthcare Management System">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Healthcare Management System</h5>
+                                <p class="card-text">A smart healthcare platform for managing patients, appointments,
+                                    doctors, and medical records efficiently.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/bussinessMg..png" class="card-img-top"
+                                    alt="Business Management System">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Business Management System</h5>
+                                <p class="card-text">A custom software solution that helps businesses manage their daily
+                                    operations efficiently.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Let's Work Together</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- logo and buttons -->
+    <header class="container-fluid bg-white py-2 shadow-lg sticky-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-6 text-lg-start text-center">
+                    <img src="images/techNova-logo.png" alt="TechNova Solutions">
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="btn-outer d-flex gap-3 justify-content-end ">
+                        <button class="btn btn-outline-success btn1"><i class="fa-brands fa-whatsapp"></i> Chat with
+                            us</button>
+                        <button class="btn btn-outline-primary btn2"><i class="fa-solid fa-phone"></i> Call us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Hero Section -->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+        <div class="container">
+            <div class="row justify-content-between gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <div class="banner-content">
+                        <h1>We Build Digital<br> Solutions That<br><span> Grow Your Bussiness</span></h1>
+                        <p>We create modern websites, mobile apps and custom software solutions that help bussinesses
+                            grow in the digital world. </p>
+                        <ul class="m-0 p-0">
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Custom Software Development</li>
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Modern & Responsive Designs</li>
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> On-Time Delivery</li>
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> 24/7 Support</li>
+                        </ul>
+                        <div class="banner-content-btn d-flex gap-3">
+                            <!-- Tooltip use in button -->
+                            <button data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip"
+                                data-bs-title="Request a free project estimate.">Get a Free Quote</button>
+                            <button data-bs-toggle="modal" data-bs-target="#ViewModal" class="downloadBtn">View Our Work
+                                <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="col-3">
+                    <div class="middle">
+                        <img src="images/laptop.png" alt="laptop">
+                    </div>
+                </div>
+                <!-- Form -->
+                <div class="col-lg-4">
+                    <form action="" class="banner-form shadow-lg">
+                        <h3>Let's Build Your Project</h3>
+                        <p>Tell us about your project and we'll get back to you.</p>
+                        <div class="mb-2">
+                            <label class="form-label">Name</label>
+                            <input type="name" placeholder="Enter your name" class="form-control">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Email</label>
+                            <input type="email" placeholder="Enter your Email" class="form-control">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Mobile Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">+92</span>
+                                <input type="text" class="form-control" placeholder="Enter your mobile number">
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Message</label>
+                            <textarea name="message" class="form-control" rows="4" cols="30"
+                                placeholder="Tell us about your project"></textarea>
+                        </div>
+
+                        <div class="mb-2">
+                            <button>Send Inquiry</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Statistics -->
+        <div class="container shadow-lg mt-4 counter-section">
+            <div class="row row-cols-lg-4 row-cols-2 p-4">
+                <div class="col">
+                    <h2><i class="fa-solid fa-square-poll-vertical"></i> 50+</h2>
+                    <p>Projects Delivered</p>
+                </div>
+                <div class="col">
+                    <h2><i class="fa-solid fa-users"></i> 30+</h2>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="col">
+                    <h2><i class="fa-solid fa-laptop"></i> 10+</h2>
+                    <p>Technologies</p>
+                </div>
+                <div class="col">
+                    <h2><i class="fa-regular fa-clock"></i> 5+</h2>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- highlight section (What we do) -->
+    <section class="container-fluid highlights-section py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2>What We Do</h2>
+                    <p>We provide end-to-end digital solutions for your bussiness.</p>
+                </div>
+            </div>
+
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100 ">
+                        <img src="images/h1.png" alt="">
+                        <div>
+                            <h4>Web Development</h4>
+                            <p>We build fast, responsive and modern websites.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100">
+                        <img src="images/h2.png" alt="">
+                        <div>
+                            <h4>Mobile App Development</h4>
+                            <p>We create powerful Android & iOS apps.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100">
+                        <img src="images/h3.png" alt="">
+                        <div>
+                            <h4>UI/UX Design</h4>
+                            <p>We design beautiful and user-friendly interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100">
+                        <img src="images/h4.png" alt="">
+                        <div>
+                            <h4>Custom Software</h4>
+                            <p>We build secure and scalable software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100">
+                        <img src="images/h5.png" alt="">
+                        <div>
+                            <h4>E-Commerce Solutions</h4>
+                            <p>We develop online stores that sell more.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" highlight-items bg-white p-3 d-flex align-items-center gap-3 shadow-lg h-100">
+                        <img src="images/h6.png" alt="">
+                        <div>
+                            <h4>Digital Marketting</h4>
+                            <p>We help you grow your brand online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why choose techNova -->
+    <section class="container-fluid chooseUs-section py-5">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>Why Bussiness Choose TechNova</h2>
+                    <p>We combine creativity, technology and expertise to deliver <span><br></span> reliable digital
+                        solutions for growing bussinesses.</p>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <div class="cards col-lg-3 col-md-6 col-12">
+                    <div class="chooseUs-items d-flex align-items-center p-4 gap-1 shadow-lg h-100">
+                        <img src="images/c1.png" alt="">
+                        <div>
+                            <h4>Experienced Team</h4>
+                            <p>Skilled professional with industry experience dedicated to delivering quality solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards col-lg-3 col-md-6 col-12">
+                    <div class="chooseUs-items d-flex align-items-center p-4 gap-1 shadow-lg h-100">
+                        <img src="images/c2.png" alt="">
+                        <div>
+                            <h4>Modern Technologies</h4>
+                            <p>We use the latest technologies to built secure, scalable and future-ready solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards col-lg-3 col-md-6 col-12">
+                    <div class="chooseUs-items d-flex align-items-center gap-1 shadow-lg h-100">
+                        <img src="images/c3.png" alt="">
+                        <div>
+                            <h4>On-Time Delivery</h4>
+                            <p>We value your time and ensure projects are delivered on schedule, every time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards col-lg-3 col-md-6 col-12">
+                    <div class="chooseUs-items d-flex align-items-center gap-1 shadow-lg h-100">
+                        <img src="images/c4.png" alt="">
+                        <div>
+                            <h4>Dedicated Support</h4>
+                            <p>Our time provides 24/7 support to keep your digital solutions running smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabs -->
+    <section class="container-fluid highlights-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8  text-center">
+                    <h2>Technologies We Use</h2>
+                    <p> Modern technologies for powerful and scalable digital solutions.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 myTabs">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#frontend" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Frontend</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#backend" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Backend</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#mobile" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Mobile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#database" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Database</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="frontend" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class=" col-lg-12 tab-list">
+                                    <ul>
+                                        <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                        <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                        <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                                        <li><i class="fa-brands fa-js"></i> Javascript</li>
+                                        <li><i class="fa-brands fa-react"></i> React.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="pills-home-tab"
+                                tabindex="0">
+                                <div class="row shadow-lg p-4">
+                                    <div class=" col-lg-12 tab-list">
+                                        <ul>
+                                            <li><i class="fa-brands fa-php"></i> PHP</li>
+                                            <li><i class="fa-brands fa-laravel"></i> Laravel</li>
+                                            <li><i class="fa-brands fa-node"></i> Node.js</li>
+                                            <li><i class="fa-brands fa-python"></i> Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="pills-home-tab"
+                                    tabindex="0">
+                                    <div class="row shadow-lg p-4">
+                                        <div class=" col-lg-12 tab-list">
+                                            <ul>
+                                                <li><i class="fa-brands fa-flutter"></i> Flutter</li>
+                                                <li><i class="fa-brands fa-react"></i> React Native</li>
+                                                <li><i class="fa-brands fa-android"></i> Android</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade" id="database" role="tabpanel"
+                                        aria-labelledby="pills-home-tab" tabindex="0">
+                                        <div class="row shadow-lg p-4">
+                                            <div class=" col-lg-12 tab-list">
+                                                <ul>
+                                                    <li><i class="fa-solid fa-database"></i> MySQL</li>
+                                                    <li><i class="fa-brands fa-mdb"></i> MongoDB</li>
+                                                    <li><i class="fa-brands fa-postgresql"></i> PostgreSQL</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <!-- Accordians Using Bootstrap -->
+    <section class="container-fluid highlights-section bg-white py-5 ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center">Frequently Asked Questions</h2>
+                    <p class="text-center">Have questions about our services? We're here to help.</p>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#ques1" aria-expanded="true" aria-controls="collapseOne">
+                                    What services does TechNova provide?
+                                </button>
+                            </h2>
+                            <div id="ques1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We provide web development, mobile app development, UI/UX design, custom software,
+                                    e-commerce solutions, and digital marketing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#ques2" aria-expanded="false" aria-controls="collapseTwo">
+                                    How long does it take to develop a website?
+                                </button>
+                            </h2>
+                            <div id="ques2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The development time depends on the project's features and requirements. We'll
+                                    provide an estimated timeline after discussing your project.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#ques3" aria-expanded="false" aria-controls="collapseThree">
+                                    Can you build a custom software solution for my business?
+                                </button>
+                            </h2>
+                            <div id="ques3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, we develop customized software solutions according to your business needs and
+                                    requirements.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#ques4" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you provide support after project completion?
+                                </button>
+                            </h2>
+                            <div id="ques4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, we provide ongoing support to help keep your digital solution running smoothly.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#ques5" aria-expanded="false" aria-controls="collapseThree">
+                                    How can I get started with my project?
+                                </button>
+                            </h2>
+                            <div id="ques5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Simply fill out the project form or contact us through WhatsApp or Call Us, and our
+                                    team will get in touch with you.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid client-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h2><strong>What Our Clients Say</strong></h2>
+                </div>
+            </div>
+
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="reviews-section shadow-lg p-4">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>TechNova built our website exactly how we imagined. Highly professional team!</p>
+
+                        <p><i class="fa-solid fa-circle-user"></i>
+                            <strong>Ali Raza</strong><br>
+                            CEO, RetailMart
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="reviews-section shadow-lg p-4">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Great experience working with TechNova. Their support is excellent.</p>
+
+                        <p><i class="fa-solid fa-circle-user"></i>
+                            <strong>Sana Khan</strong><br>
+                            Marketing Head, Foodies
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="reviews-section shadow-lg p-4">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>They delivered our mobile app on time with amazing features.</p>
+
+                        <p><i class="fa-solid fa-circle-user"></i>
+                            <strong>Usman Ahmed</strong><br>
+                            Founder, TrackX
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid last-section p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2><strong>Have an Idea? Let's Build it Together</strong></h2>
+                    <p>We turn your ideas into powerful digital solutions.</p>
+                    <button>
+                        Get Started Today <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid p-4">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-6 col-12 ">
+                    <h2><Strong>Tech<span>Nova</span></Strong></h2>
+                    <p>We build digital solutions that help bussinesses grow and succeed online.</p>
+
+                    <div class="icon d-flex justify-content-center m-4">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+
+                    <hr>
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services"> Services</a></li>
+                            <li><a href="#ourWork"> Our Work</a></li>
+                            <li><a href="#contact"> Contact</a></li>
+                        </ul>
+                    </nav>
+                    <hr>
+                    <p> &copy; 2026 TechNova Solutions. <br> All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+<!-- Tooltip -->
+<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+
+</html>
