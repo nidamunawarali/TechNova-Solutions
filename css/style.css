@@ -1,0 +1,253 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+header img {
+    height: 60px;
+    width: 195px;
+}
+
+.btn2 {
+    color: rgb(63, 63, 178);
+}
+
+.btn2:hover {
+    background-color: rgb(63, 63, 178);
+    color: white;
+}
+
+.btn1,
+.btn2 {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.banner-content h1 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.banner-content h1 span {
+    color: rgb(63, 63, 178);
+}
+
+.banner-content p,
+ul li {
+    font-size: 17px;
+}
+
+.banner-content ul {
+    list-style: none;
+}
+
+.banner-content ul li i {
+    color: #2699FB;
+}
+
+.banner-content-btn button {
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.banner-content-btn button:first-child {
+    color: white;
+    background: linear-gradient(to right, #2699FB, rgb(63, 63, 178));
+}
+
+.downloadBtn:hover {
+    color: white;
+    background-color: gray;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-form {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.banner-form h3 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.banner-form button {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right, #2699FB, rgb(63, 63, 178));
+    border: none;
+}
+
+.counter-section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(63, 63, 178);
+}
+
+
+.modal-header h1,
+h5 {
+    font-weight: bold;
+    color: rgb(63, 63, 178);
+}
+
+.modal-header {
+    padding: 12px 15px;
+}
+
+.modal-body {
+    padding: 10px 12px;
+}
+
+.modal-body p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.card {
+    height: 100%;
+    margin: 0px 10px;
+}
+
+.card-body {
+    padding: 10px 12px;
+
+}
+
+.card img {
+    height: 150px;
+    width: 212px;
+    text-align: center;
+    object-fit: contain;
+}
+
+.highlights-section {
+    background-color: #f2f5fc;
+}
+
+.highlights-section h2 {
+    font-weight: 700;
+}
+
+.highlight-items img {
+    height: 70px;
+    width: 60px;
+}
+
+.highlight-items h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.highlight-items p {
+    font-size: 13px;
+}
+
+
+.chooseUs-section h2 {
+    font-weight: 700;
+}
+
+.chooseUs-items {
+    border-radius: 20px;
+    padding: 8px 20px !important;
+}
+
+.chooseUs-items img {
+    height: 70px;
+    width: 60px;
+}
+
+.chooseUs-items h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.chooseUs-items p {
+    font-size: 13px;
+}
+
+.tab-list ul li {
+    list-style: none;
+    font-weight: 600;
+    color: #416a8f;
+}
+
+.myTabs .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #dededf;
+    color: black;
+    border-bottom: 2px solid #416a8f;
+}
+
+.client-section {
+    background-color: #f2f5fc;
+}
+
+.reviews-section {
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.reviews-section i {
+    color: rgb(63, 63, 178);
+}
+
+.last-section {
+    background-color: rgb(63, 63, 178);
+    color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+}
+
+
+.last-section button {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(63, 63, 178)
+}
+
+footer {
+    background-color: #011b32;
+    color: white;
+}
+
+footer span {
+    color: #2699FB;
+}
+
+.icon i {
+    color: #2699FB;
+    margin: 0px 8px;
+    font-size: 25px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin: 0px 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #2699FB;
+}

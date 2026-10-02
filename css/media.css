@@ -1,0 +1,83 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+    header img {
+        height: 40px;
+        width: 165px;
+    }
+
+    .btn-outer {
+        width: 100%;
+        justify-content: flex-end !important;
+        background-color: white;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 0px 5px;
+        border: 2px solid;
+        border-radius: 10px;
+        font-size: 11px;
+        height: 38px;
+        width: 60%;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .banner-content br {
+        display: none;
+    }
+
+    .banner-content p,
+    ul li {
+        font-size: 15px;
+    }
+
+    .middle img {
+        display: none;
+    }
+
+    .banner-content-btn {
+        flex-direction: column;
+    }
+
+    .banner-content-btn button {
+        width: 100%;
+    }
+
+    .banner-form {
+        padding: 20px;
+    }
+
+    .modal-dialog {
+        height: 100%;
+        width: 100%;
+    }
+
+    .chooseUs-section span {
+        display: none;
+    }
+
+    #pills-tab {
+        flex-wrap: nowrap;
+    }
+
+    #navbar ul li {
+        margin: 0px 8px;
+    }
+}
